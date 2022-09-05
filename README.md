@@ -1,1 +1,17 @@
-# 4f55ed7f-07d7-4603-97fd-475b8b6a140a
+# Template: worker-typescript
+
+A batteries included template for kick starting a TypeScript Cloudflare worker project.
+
+## Setup
+
+To create a `my-project` directory using this template, run:
+
+```sh
+$ npm init cloudflare my-project worker-typescript
+# or
+$ yarn create cloudflare my-project worker-typescript
+# or
+$ pnpm create cloudflare my-project worker-typescript
+```
+
+> **Note:** Each command invokes [`create-cloudflare`](https://www.npmjs.com/package/create-cloudflare) for project creation.
